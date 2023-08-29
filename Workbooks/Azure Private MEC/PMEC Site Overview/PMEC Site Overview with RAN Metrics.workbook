@@ -4165,7 +4165,7 @@
         ],
         "timeContextFromParameter": "timespan",
         "timeContext": {
-          "durationMs": 86400000
+          "durationMs": 0
         },
         "metrics": [
           {
@@ -4181,6 +4181,11 @@
         "gridSettings": {
           "rowLimit": 10000
         }
+      },
+      "conditionalVisibility": {
+        "parameterName": "tab",
+        "comparison": "isEqualTo",
+        "value": "ranMetrics"
       },
       "customWidth": "50",
       "showPin": true,
@@ -4201,7 +4206,7 @@
         ],
         "timeContextFromParameter": "timespan",
         "timeContext": {
-          "durationMs": 86400000
+          "durationMs": 0
         },
         "timeGrain": "PT15M",
         "metrics": [
@@ -4219,13 +4224,15 @@
           "rowLimit": 10000
         }
       },
+      "conditionalVisibility": {
+        "parameterName": "tab",
+        "comparison": "isEqualTo",
+        "value": "ranMetrics"
+      },
       "customWidth": "50",
       "showPin": true,
       "name": "metric - 11"
     }
-  ],
-  "fallbackResourceIds": [
-    "/subscriptions/c5f30b9d-272b-46ea-8bf6-ec6c9c392f35/resourceGroups/APRICOT-Lab-RG-1/providers/Microsoft.MobileNetwork/mobileNetworks/apricot-pmn-1/sites/Apricot-Lab-Site"
   ],
   "$schema": "https://raw.githubusercontent.com/microsoft/Application-Insights-Workbooks/master/schema/workbook.json"
 }

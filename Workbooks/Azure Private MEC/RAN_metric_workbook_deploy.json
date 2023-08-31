@@ -252,6 +252,7 @@
                     "id": "ef617596-e3e1-4135-9d1a-373e213dd6f6",
                     "version": "KqlParameterItem/1.0",
                     "name": "nodeBLimitText",
+                    "isHiddenWhenLocked": true,
                     "type": 1,
                     "criteriaData": [
                       {
@@ -4634,9 +4635,6 @@
               "showPin": true,
               "name": "metric - 11"
             }
-          ],
-          "fallbackResourceIds": [
-            "/subscriptions/c5f30b9d-272b-46ea-8bf6-ec6c9c392f35/resourceGroups/APRICOT-Lab-RG-1/providers/Microsoft.MobileNetwork/mobileNetworks/apricot-pmn-1/sites/Apricot-Lab-Site"
           ],
           "$schema": "https://raw.githubusercontent.com/microsoft/Application-Insights-Workbooks/master/schema/workbook.json"
         }

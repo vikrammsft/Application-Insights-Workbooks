@@ -4168,8 +4168,9 @@
         ],
         "timeContextFromParameter": "timespan",
         "timeContext": {
-          "durationMs": 86400000
+          "durationMs": 0
         },
+        "timeGrain": "PT15M",
         "metrics": [
           {
             "namespace": "microsoft.mobilenetwork/radioaccessnetworks",
@@ -4178,7 +4179,7 @@
             "splitBy": "APIdentifier"
           }
         ],
-        "title": "NodeBs Online",
+        "title": "Access Points Online",
         "showOpenInMe": true,
         "timeBrushParameterName": "timebrush",
         "gridSettings": {
@@ -4209,8 +4210,9 @@
         ],
         "timeContextFromParameter": "timespan",
         "timeContext": {
-          "durationMs": 86400000
+          "durationMs": 0
         },
+        "timeGrain": "PT15M",
         "metrics": [
           {
             "namespace": "microsoft.kubernetesconfiguration/extensions",
@@ -4219,7 +4221,7 @@
             "splitBy": null
           }
         ],
-        "title": "NodeBs Connected to Packet Core",
+        "title": "Access Points Connected to Packet Core",
         "showOpenInMe": true,
         "timeBrushParameterName": "timebrush",
         "gridSettings": {

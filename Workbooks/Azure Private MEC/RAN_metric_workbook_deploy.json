@@ -34,9 +34,6 @@
               "type": 9,
               "content": {
                 "version": "KqlParameterItem/1.0",
-                "crossComponentResources": [
-                  "/subscriptions/c5f30b9d-272b-46ea-8bf6-ec6c9c392f35/resourceGroups/APRICOT-Lab-RG-1/providers/Microsoft.MobileNetwork/mobileNetworks/apricot-pmn-1/sites/Apricot-Lab-Site"
-                ],
                 "parameters": [
                   {
                     "id": "1830d553-9a94-4f2f-89d4-203cdbbd67b1",
@@ -1448,7 +1445,7 @@
                       "noDataMessage": "No active alerts",
                       "noDataMessageStyle": 3,
                       "queryType": 1,
-                      "resourceType": "microsoft.mobilenetwork/mobilenetworks/sites",
+                      "resourceType": "microsoft.resourcegraph/resources",
                       "gridSettings": {
                         "formatters": [
                           {
@@ -4349,7 +4346,7 @@
                     "namespace": "microsoft.mobilenetwork/radioaccessnetworks",
                     "metric": "microsoft.mobilenetwork/radioaccessnetworks-Traffic-ConnectionHandoverSuccesses",
                     "aggregation": 4,
-                    "splitBy": null
+                    "splitBy": "APIdentifier"
                   }
                 ],
                 "title": "Successful Connection Handovers from RAN",
